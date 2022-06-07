@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       body {
+  margin: 0;
+  padding: 0;
+  background-color: #4c82cf;
+}
+.container {
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+#login {
+  margin-top: 100px;
+  font-size: 20px;
+}
+.form_input1 {
+  width: 80%;
+  margin: 20px 0;
+  padding: 10px 10px;
+  font-size: 18px;
+}
+.form_button {
+  width: 80%;
+  margin: 20px 0;
+  padding: 10px 10px;
+  font-size: 18px;
+  background-color: #4c82cf;
+}
+
+   </style>
+</head>
+<body>
+    <div class="container">
+        <form  class="form" id="login">
+            <h1 class="form_title">Login</h1>
+            <!-- <div class="form_message_error">Incorrect username/password</div> -->
+            <div class="form_input_grp">
+                <input type="text" class="form_input1" placeholder=" Email" id="log">
+                <!-- <div class="form_input_error_message">this is an error</div>
+            </div> -->
+            <div class="form_input_grp">
+                <input type="password" class="form_input1" 
+                placeholder="Password" id="pass">
+                <div class="form_input_error_message"> </div>
+            </div>
+            <button class="form_button" type="submit" >Login </button>
+            <p class="form_text">
+                forget
+                <a href="#" class="form_link"> password ?</a>
+            </p>
+            <p class="form_text">
+                <a id="linkCreateAccount" href="" class="form_link">Don't have an Account ? Sign up</a>
+            </p>
+
+
+        </form>
+    </div>
+</body>
+</html>
