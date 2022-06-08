@@ -13,16 +13,15 @@
 }
 .container {
   width: 400px;
-  height: 700px;
   margin: auto;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 60px;
+  padding: 40px 0px;
   background-color: white;
   border: 1px solid white;
   border-radius: 15px;
 }
 #login {
-  margin-top: 100px;
   font-size: 20px;
 }
 .form_input1 {
@@ -36,7 +35,15 @@
   margin: 20px 0;
   padding: 10px 10px;
   font-size: 18px;
-  background-color: #4c82cf;
+  border: none;
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}a{
+  text-decoration: none;
+  color:blue;
+}input{
+  border:none;
+  border-bottom:1px solid gray;
 }
 
    </style>
@@ -57,11 +64,12 @@
             </div>
             <button class="form_button" type="submit" >Login </button>
             <p class="form_text">
-                forget
+                Forgot
                 <a href="#" class="form_link"> password ?</a>
             </p>
             <p class="form_text">
-                <a id="linkCreateAccount" href="" class="form_link">Don't have an Account ? Sign up</a>
+              Don't have an account ?
+                <a id="linkCreateAccount" href="" class="form_link"> Sign up</a>
             </p>
 
 
